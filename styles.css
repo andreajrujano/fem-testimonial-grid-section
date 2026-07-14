@@ -1,0 +1,123 @@
+:root {
+    --body-background: #f6f5f6;
+    --white: hsl(0, 0%, 100%);
+    --purple-50: hsl(260, 100%, 95%);
+    --purple-300: hsl(264, 82%, 80%);
+    --purple-500: hsl(263, 55%, 52%);
+    --grey-100: hsl(214, 17%, 92%);
+    --grey-200: hsl(0, 0%, 81%);
+    --grey-400: hsl(224, 10%, 45%);
+    --grey-500: hsl(217, 19%, 35%);
+    --dark-blue: hsl(219, 29%, 14%);
+    --black: hsl(0, 0%, 7%);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    background-color: var(--body-background);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 80%;
+    gap: 2.46rem;
+}
+
+.testimonial-card {
+    padding: 2.46rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.23rem;
+    border-radius: 0.61rem;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
+}
+.card-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+.avatar {
+    width: 2.15rem;
+    height: 2.15rem;
+    border-radius: 50%;
+}
+
+.user-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.user_name {
+    font-size: 1rem;
+}
+
+.user-status {
+    font-size: 0.84rem;
+}
+
+.testimonial-headline {
+    font-size: 1.53rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.card-white_1, .card-white_2 {
+    background-color: var(--white);
+}
+
+.card-purple {
+    background-color: var(--purple-500);
+    color: var(--white);
+}
+
+.card-grey {
+    background-color: var(--grey-500);
+    color: var(--white);
+}
+
+.card-blue {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
