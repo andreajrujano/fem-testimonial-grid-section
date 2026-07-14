@@ -37,6 +37,8 @@ html {
 
 body {
     background-color: var(--body-background);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
 }
 
 .sr-only {
@@ -100,7 +102,11 @@ main {
 .testimonial-headline {
     font-size: 1.53rem;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.testimonial-body {
+    line-height: 1.4;
 }
 
 .card-white_1, .card-white_2 {
