@@ -111,21 +111,21 @@ main {
     line-height: 1.4;
 }
 
-.card-white_1, .card-white_2 {
+.card-jeanette, .card-kira {
     background-color: var(--white);
 }
 
-.card-purple {
+.card-daniel {
     background-color: var(--purple-500);
     color: var(--white);
 }
 
-.card-grey {
+.card-jonatan {
     background-color: var(--grey-500);
     color: var(--white);
 }
 
-.card-blue {
+.card-patrick {
     background-color: var(--dark-blue);
     color: var(--white);
 }
