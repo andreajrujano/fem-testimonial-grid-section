@@ -149,3 +149,29 @@ main {
 .card-patrick .user-status, .card-patrick .testimonial-body {
     color: var(--grey-200);
 }
+
+@media (min-width: 50rem) {
+
+    .main {
+        padding-top: 6.4rem;
+        padding-bottom: 6.4rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.46rem;
+    }
+    .card-daniel {
+        background-image: url('images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: top 0 right 15%;
+        background-size: 150px;
+        position: relative;
+    }
+
+    .card-daniel, .card-kira, .card-patrick {
+        grid-column: span 2;
+    }
+}
+
