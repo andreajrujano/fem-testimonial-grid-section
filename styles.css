@@ -113,6 +113,7 @@ main {
 
 .card-jeanette, .card-kira {
     background-color: var(--white);
+    color: var(--grey-500);
 }
 
 .card-daniel {
@@ -128,4 +129,23 @@ main {
 .card-patrick {
     background-color: var(--dark-blue);
     color: var(--white);
+}
+
+.card-daniel .user-status, .card-daniel .testimonial-body {
+    color: var(--purple-50);
+}
+.card-jonatan .user-status, .card-jonatan .testimonial-body {
+    color: var(--grey-100);
+}
+
+.card-jeanette .user-status, .card-jeanette .testimonial-body {
+    color: var(--grey-400);
+}
+
+.card-kira .user-status, .card-kira .testimonial-body {
+    color: var(--grey-400);
+}
+
+.card-patrick .user-status, .card-patrick .testimonial-body {
+    color: var(--grey-200);
 }
