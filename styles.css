@@ -3,6 +3,7 @@
     --white: hsl(0, 0%, 100%);
     --purple-50: hsl(260, 100%, 95%);
     --purple-300: hsl(264, 82%, 80%);
+    --purple-400: hsl(264, 82%, 70%);
     --purple-500: hsl(263, 55%, 52%);
     --grey-100: hsl(214, 17%, 92%);
     --grey-200: hsl(0, 0%, 81%);
@@ -129,6 +130,14 @@ main {
 .testimonial--patrick {
     background-color: var(--dark-blue);
     color: var(--white);
+}
+
+.testimonial--daniel .testimonial__avatar {
+    box-shadow: 0 0 0 2px var(--purple-400);
+}
+
+.testimonial--patrick .testimonial__avatar {
+    box-shadow: 0 0 0 2px var(--purple-500);
 }
 
 .testimonial--daniel .testimonial__status, .testimonial--daniel .testimonial__quote {
