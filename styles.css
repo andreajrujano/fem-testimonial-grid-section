@@ -67,7 +67,7 @@ main {
     gap: 2.46rem;
 }
 
-.testimonial-card {
+.testimonial {
     padding: 2.46rem;
     display: flex;
     flex-direction: column;
@@ -75,78 +75,78 @@ main {
     border-radius: 0.61rem;
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
 }
-.card-header {
+.testimonial__header {
     display: flex;
     flex-direction: row;
     gap: 1.3rem;
     align-items: center;
 }
 
-.avatar {
+.testimonial__avatar {
     width: 2.15rem;
     height: 2.15rem;
     border-radius: 50%;
 }
 
-.user-meta {
+.testimonial__meta {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
 }
-.user_name {
+.testimonial__name {
     font-size: 1rem;
 }
 
-.user-status {
+.testimonial__status {
     font-size: 0.84rem;
 }
 
-.testimonial-headline {
+.testimonial__headline {
     font-size: 1.53rem;
     line-height: 1.2;
     font-weight: 600;
 }
 
-.testimonial-body {
+.testimonial__quote {
     line-height: 1.4;
 }
 
-.card-jeanette, .card-kira {
+.testimonial--jeanette, .testimonial--kira {
     background-color: var(--white);
     color: var(--grey-500);
 }
 
-.card-daniel {
+.testimonial--daniel {
     background-color: var(--purple-500);
     color: var(--white);
 }
 
-.card-jonatan {
+.testimonial--jonathan {
     background-color: var(--grey-500);
     color: var(--white);
 }
 
-.card-patrick {
+.testimonial--patrick {
     background-color: var(--dark-blue);
     color: var(--white);
 }
 
-.card-daniel .user-status, .card-daniel .testimonial-body {
+.testimonial--daniel .testimonial__status, .testimonial--daniel .testimonial__quote {
     color: var(--purple-50);
 }
-.card-jonatan .user-status, .card-jonatan .testimonial-body {
+.testimonial--jonathan .testimonial__status, .testimonial--jonathan .testimonial__quote {
     color: var(--grey-100);
 }
 
-.card-jeanette .user-status, .card-jeanette .testimonial-body {
+.testimonial--jeanette .testimonial__status, .testimonial--jeanette .testimonial__quote {
     color: var(--grey-400);
 }
 
-.card-kira .user-status, .card-kira .testimonial-body {
+.testimonial--kira .testimonial__status, .testimonial--kira .testimonial__quote {
     color: var(--grey-400);
 }
 
-.card-patrick .user-status, .card-patrick .testimonial-body {
+.testimonial--patrick .testimonial__status, .testimonial--patrick .testimonial__quote {
     color: var(--grey-200);
 }
 
@@ -162,7 +162,8 @@ main {
         grid-template-columns: 1fr 1fr;
         gap: 2.46rem;
     }
-    .card-daniel {
+    
+    .testimonial--daniel {
         background-image: url('images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
         background-position: top 0 right 15%;
@@ -170,7 +171,7 @@ main {
         position: relative;
     }
 
-    .card-daniel, .card-kira, .card-patrick {
+    .testimonial--daniel, .testimonial--kira, .testimonial--patrick {
         grid-column: span 2;
     }
 }
@@ -183,23 +184,23 @@ main {
         gap: 1.84rem 2.46rem; /* row-gap column-gap */
         max-width: 70%;
     }
-    .card-daniel{
+    .testimonial--daniel {
         grid-column: 1 / span 2;
         grid-row: 1 / 2;
     }
-    .card-jonatan{
+    .testimonial--jonathan {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
-    .card-jeanette {
+    .testimonial--jeanette {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
-    .card-patrick {
+    .testimonial--patrick {
         grid-column: 2 / 4;
         grid-row: 2 / 3;
     }
-    .card-kira {
+    .testimonial--kira {
         grid-column: 4 / 5;
         grid-row: 1 / 3;
     }
