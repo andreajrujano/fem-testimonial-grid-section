@@ -175,9 +175,8 @@ main {
     .testimonial--daniel {
         background-image: url('images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
-        background-position: top 0 right 15%;
-        background-size: 150px;
-        position: relative;
+        background-position: top 0 right 80px;
+        background-size: 104px 102px;
     }
 
     .testimonial--daniel, .testimonial--kira, .testimonial--patrick {
