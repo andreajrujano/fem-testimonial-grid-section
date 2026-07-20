@@ -32,13 +32,10 @@ input, button, textarea, select {
     font: inherit;
 }
 
-html {
-    font-size: 13px;
-}
-
 body {
     background-color: var(--body-background);
     font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 0.8125rem; /* 13px */
     font-weight: 500;
 }
 
@@ -58,52 +55,52 @@ main {
     place-items: center;
     min-height: 100vh;
     box-sizing: border-box;
-    padding-top: 5.6rem;
-    padding-bottom: 5.6rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
 }
 .container {
     display: grid;
     grid-template-columns: 1fr;
     width: min(100% - 48px, 1110px);
-    gap: 2.46rem;
+    gap: 2rem;
 }
 
 .testimonial {
-    padding: 2.46rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1.23rem;
-    border-radius: 0.61rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
 }
 .testimonial__header {
     display: flex;
     flex-direction: row;
-    gap: 1.3rem;
+    gap: 1.0625rem;
     align-items: center;
 }
 
 .testimonial__avatar {
-    width: 2.15rem;
-    height: 2.15rem;
+    width: 1.75rem;
+    height: 1.75rem;
     border-radius: 50%;
 }
 
 .testimonial__meta {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.25rem;
 }
 .testimonial__name {
-    font-size: 1rem;
+    font-size: 0.8125rem;
 }
 
 .testimonial__status {
-    font-size: 0.84rem;
+    font-size: 0.6875rem;
 }
 
 .testimonial__headline {
-    font-size: 1.53rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     font-weight: 600;
 }
@@ -162,8 +159,8 @@ main {
 @media (min-width: 50rem) {
 
     main {
-        padding-top: 6.4rem;
-        padding-bottom: 6.4rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 
     .container {
@@ -185,7 +182,7 @@ main {
 @media (min-width: 86rem) {
     .container {
         grid-template-columns: repeat(4, 1fr);
-        gap: 1.84rem 2.46rem; /* row-gap column-gap */
+        gap: 1.5rem 2rem; /* row-gap column-gap */
     }
     .testimonial--daniel {
         grid-column: 1 / span 2;
