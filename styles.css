@@ -64,7 +64,7 @@ main {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 80%;
+    width: min(100% - 48px, 1110px);
     gap: 2.46rem;
 }
 
@@ -167,9 +167,7 @@ main {
     }
 
     .container {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2.46rem;
     }
     
     .testimonial--daniel {
@@ -186,11 +184,8 @@ main {
 
 @media (min-width: 86rem) {
     .container {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 1fr;
         gap: 1.84rem 2.46rem; /* row-gap column-gap */
-        max-width: 70%;
     }
     .testimonial--daniel {
         grid-column: 1 / span 2;
