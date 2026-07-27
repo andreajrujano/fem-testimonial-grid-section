@@ -169,7 +169,7 @@ main {
     }
     
     .testimonial--daniel {
-        background-image: url('images/bg-pattern-quotation.svg');
+        background-image: url('../images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
         background-position: top 0 right 80px;
         background-size: 104px 102px;
