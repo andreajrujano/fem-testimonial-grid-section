@@ -53,8 +53,7 @@ body {
 main {
     display: grid;
     place-items: center;
-    min-height: 100vh;
-    box-sizing: border-box;
+    min-height: 100dvh;
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
 }
@@ -73,6 +72,7 @@ main {
     border-radius: 0.5rem;
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
 }
+
 .testimonial__header {
     display: flex;
     flex-direction: row;
