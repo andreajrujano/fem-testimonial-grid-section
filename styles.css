@@ -126,7 +126,7 @@ main {
 
 .testimonial--patrick {
     background-color: var(--dark-blue);
-    color: var(--white);
+    color: var(--grey-200);
 }
 
 .testimonial--daniel .testimonial__avatar {
@@ -140,6 +140,7 @@ main {
 .testimonial--daniel .testimonial__status, .testimonial--daniel .testimonial__quote {
     color: var(--purple-50);
 }
+
 .testimonial--jonathan .testimonial__status, .testimonial--jonathan .testimonial__quote {
     color: var(--grey-100);
 }
@@ -152,8 +153,8 @@ main {
     color: var(--grey-400);
 }
 
-.testimonial--patrick .testimonial__status, .testimonial--patrick .testimonial__quote {
-    color: var(--grey-200);
+.testimonial--patrick .testimonial__status, .testimonial__quote {
+    color: var(--grey-100);
 }
 
 @media (min-width: 50rem) {
