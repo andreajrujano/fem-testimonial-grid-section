@@ -24,7 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desktop-screenshot.png)
+![](./images/desktop-screenshot.png)
+
+### Links
+
+Live site URL [FEM testimonial grid section](https://andreajrujano.github.io/fem-testimonial-grid-section/)
 
 ## My process
 
@@ -36,7 +40,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -111,7 +114,7 @@ Further and advanced uses for CSS grid.
 
 ### Useful resources
 
-- [MDN docs](https://www.example.chttps://developer.mozilla.org/en-US/) - This helped me to explore the background image properties
+- [MDN docs](https://developer.mozilla.org/en-US/) - This helped me to explore the background image properties
 
 ### AI Collaboration
 
